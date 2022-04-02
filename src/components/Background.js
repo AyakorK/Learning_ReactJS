@@ -73,7 +73,7 @@ const Background = () => {
               enable: true,
               outMode: "bounce",
               random: true,
-              speed: 4,
+              speed: 2,
               straight: false,
               
             },
