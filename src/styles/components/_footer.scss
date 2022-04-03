@@ -1,0 +1,33 @@
+.footerContainer {
+    z-index: -1;
+footer {
+    padding-top: 1em;
+    color: #666;
+    background-color: rgba(68, 134, 209, 0.13);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    // Place it at the end of the page
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    .socials {
+        z-index: 10 !important;
+        a {
+            color: #666;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 1rem;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: rgb(255, 255, 255);
+                border-radius: 300px;
+                background-color: rgba(63, 109, 194, 0.116);
+            }
+        }
+    }
+}
+}
