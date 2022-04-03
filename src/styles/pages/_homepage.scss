@@ -63,7 +63,7 @@
             h1 {
                 font-size: 2em;
                 font-weight: bold;
-                color: rgb(92, 92, 92);
+                color: rgb(30, 2, 122);
             }
         .githubGraph {
             z-index: 10;
@@ -71,6 +71,7 @@
             flex-direction: column;
             text-align: center;
             pointer-events: none;
+            border-radius:3000px;
         }
     }
         
@@ -86,10 +87,10 @@
             h1 {
                 font-size: 2em;
                 font-weight: bold;
-                color: rgb(92, 92, 92);
+                color: rgb(30, 2, 122);
             }
             .languageContainer {
-                background-color: rgb(160, 0, 0);
+                background-color: rgb(16, 0, 160);
                 margin-top:10px;
                 border-radius: 50px;
                 display:flex;
