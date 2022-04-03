@@ -25,7 +25,8 @@ const Footer = () => {
                 </div>
                 <div className="copyright">
                     <p>      
-                        © 2022 Ayakor
+                        © 2022 Ayakor <br />
+                        All rights reserved
                     </p>
                 </div>
                 <div className="contactMe">
