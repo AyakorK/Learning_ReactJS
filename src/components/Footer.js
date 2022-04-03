@@ -9,24 +9,29 @@ const Footer = () => {
             <footer>
                 <div className="socials">
                     <a href="https://www.linkedin.com/in/guillaume-moret-developpeur-informatique/" target="_blank">
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon id="linkedIn" icon={faLinkedin} />
                     </a>
                     {/* Github */}
-                    <a href="https://github.com/AyakorK" target="_blank">
-                    <FontAwesomeIcon icon={faGithub} />
+                    <a  href="https://github.com/AyakorK" target="_blank">
+                    <FontAwesomeIcon id="github" icon={faGithub} />
                     </a>
                     {/* Twitter */}
                      <a href="https://twitter.com/AyakorK" target="_blank">
-                    <FontAwesomeIcon icon={faTwitter} />
+                    <FontAwesomeIcon id="twitter" icon={faTwitter} />
                     </a> 
-                </div>
                 <p>
                     Made with <span role="img" aria-label="heart">❤️</span> by Ayakor
                 </p>
+                </div>
                 <div className="copyright">
                     <p>      
                         © 2022 Ayakor
                     </p>
+                </div>
+                <div className="contactMe">
+                    <NavLink to="/contact">
+                        <p>Contact Me</p>
+                    </NavLink>
                 </div>
             </footer>
         </div>

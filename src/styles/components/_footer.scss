@@ -4,11 +4,12 @@ footer {
     padding-top: 1em;
     color: #666;
     background-color: rgba(68, 134, 209, 0.13);
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    // Place it at the end of the page
+    padding: 1em 0;
+
     position: fixed;
     bottom: 0;
     left: 0;
@@ -18,15 +19,54 @@ footer {
         a {
             color: #666;
             text-decoration: none;
-            font-size: 1.1rem;
+            font-size: 1.4rem;
             font-weight: bold;
             padding: 1rem;
-            transition: all 0.3s ease-in-out;
-            &:hover {
-                color: rgb(255, 255, 255);
-                border-radius: 300px;
-                background-color: rgba(63, 109, 194, 0.116);
+
+
+            #linkedIn {
+               
+                color: #0077b5;
+                background-color: #01466b52;
+                &:hover {
+                    color: #01466b;
+                }
             }
+            #github {
+               
+                color: #333;
+                border-radius: 20px;
+                background-color: #fff;
+                &:hover {
+                    color: rgb(29, 29, 29);
+                }
+            }
+            #twitter {
+               
+                color: #1da1f2;
+                background-color: rgba(59, 96, 163, 0.719);
+                border-radius: 30px;
+                &:hover {
+                    color: #0077b5;
+                }
+            }
+            #twitter,
+            #github,
+            #linkedIn {
+                margin-right: 1rem;
+                
+                
+                box-shadow: 0 0 10px rgba(53, 117, 201, 0.678);
+                transition: all 0.3s ease-in-out;
+            }
+            
+        }
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+            font-weight: bold;
+            color: rgb(230, 230, 230);
         }
     }
 }
