@@ -1,0 +1,23 @@
+.contactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .contactContainer {
+        .contactMe_text {
+            display: flex;
+            flex-direction: column;
+            z-index: 3;
+            pointer-events: none;
+        }
+        .contactMe_form {
+            z-index: 3;
+            pointer-events: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
